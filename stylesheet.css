@@ -1,3 +1,8 @@
+html, body {
+text-align: center;
+}
+p {text-align: center;}
+
 #bottomContent
 {
 clear:both;
@@ -24,3 +29,54 @@ padding:5px;
 margin-top:10px;
 background: #41E18C;
 }
+
+#bottomContent .navColumn .link
+{
+width:369px;
+height:65px;
+line-height:65px;
+font:Arial, Helvetica, sans-serif;
+font-size:20px;
+background-image:url(images/arrow_link_background.png);
+background-repeat:no-repeat;
+padding-left:50px;
+}
+
+#bottomContent .navColumn .link:hover
+{
+background-image:url(images/rollover_back65.png);
+background-repeat:no-repeat;
+}
+
+a
+{
+color:#777B2B;
+text-decoration:none;
+}
+
+a:hover
+{
+color:#CACE73;
+text-decoration:none;
+border-bottom:dotted 1px;
+}
+
+#bottomContent .contentColumn
+{
+float:left;
+margin-left:0px;
+width:550px;
+}
+
+#bottomContent #navBottom{
+clear:both;
+width:419px;
+height:20px;
+background-repeat:no-repeat;
+float:left;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: center;}
